@@ -14,9 +14,7 @@ Snowflake: Destination data warehouse
 Python
 
 ### 📁 Project Structure
-bash
-Copy
-Edit
+bash ```
 dagster_ml/
 │
 ├── mongodb/                # MongoDB source definition
@@ -25,7 +23,7 @@ dagster_ml/
 ├── venv/                   # Virtual environment
 ├── setup.py
 └── pyproject.toml
-
+```
 ### ⚙️ How It Works
 Connects to the sample_mflix MongoDB dataset using dlt.
 
